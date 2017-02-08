@@ -1,9 +1,9 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
 
 // You can store key-value pairs in express, here we store the port setting
-var express = require('express'),
-app = express();
+app.use(bodyParser.json());
 app.get('/', function(req, res) {
     res.send("Hello world");
 });
