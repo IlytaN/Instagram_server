@@ -4,7 +4,7 @@ var app = express();
 // You can store key-value pairs in express, here we store the port setting
 var express = require('express'),
 app = express();
-app.get('/take-picture', function(req, res) {
+app.get('/', function(req, res) {
     res.send("Hello world");
 });
 app.set('port', process.env.PORT || 3000);
