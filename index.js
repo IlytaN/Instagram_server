@@ -8,6 +8,7 @@ var posts = require('./Home_instagram/Posts.js');
 app.set('port', process.env.PORT || 3000);
 app.use(cors());
 app.use(bodyParser.json());
+app.use(posts);
 app.get('/', function(req, res) {
     res.send("Hello world");
 });
