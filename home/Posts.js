@@ -1,4 +1,4 @@
-var data = require('../data/data.js');
+var data = require('../Data/data.js');
 var express = require('express');
 var router = express.Router();
 var cors = require('cors');
