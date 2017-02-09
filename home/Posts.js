@@ -5,7 +5,7 @@ var cors = require('cors');
 
 router.route('/posts')
 	.get(function(req,res,next){
-        res.json(data.getAllPosts());
+        res.json(data.AllPosts());
     })
     ;
 
