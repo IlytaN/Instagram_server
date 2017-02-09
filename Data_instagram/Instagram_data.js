@@ -11,17 +11,6 @@ var posts = [{
     time_of_comment: 10
   }, {
     id: 1,
-    avatar: "img/adam.jpg",
-    username: "Adam Levin",
-    picture: "img/adam.jpg",
-    like : 30,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are ugly!!!",
-    number_of_comment: 50,
-    time_of_comment: 4
-  }, {
-    id: 2,
     avatar: "img/trump.jpg",
     username: "Trump",
     picture: "img/trump.jpg",
@@ -31,84 +20,7 @@ var posts = [{
     comment: "speechless!!!",
     number_of_comment: 90,
     time_of_comment: 5
-  }, {
-    id: 3,
-    avatar: "img/adam.jpg",
-    username: "Obama",
-    picture: "img/adam.jpg",
-    like : 100000,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are handsome!!!",
-    number_of_comment: 80,
-    time_of_comment: 3
-  }, {
-    id: 4,
-    avatar: "img/adam.jpg",
-    username: "Katy Perry",
-    picture: "img/adam.jpg",
-    like : 77,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are handsome!!!",
-    number_of_comment: 99,
-    time_of_comment: 8
-  }, {
-    id: 5,
-    avatar: "img/adam.jpg",
-    username: "Adam Levin",
-    picture: "img/adam.jpg",
-    like : 100,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are handsome!!!",
-    number_of_comment: 100,
-    time_of_comment: 10
-  }, {
-    id: 6,
-    avatar: "img/adam.jpg",
-    username: "Adam Levin",
-    picture: "img/adam.jpg",
-    like : 30,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are ugly!!!",
-    number_of_comment: 50,
-    time_of_comment: 4
-  }, {
-    id: 7,
-    avatar: "img/trump.jpg",
-    username: "Trump",
-    picture: "img/trump.jpg",
-    like : 65,
-    caption: [],
-    commenter: "Hillary",
-    comment: "speechless!!!",
-    number_of_comment: 90,
-    time_of_comment: 5
-  }, {
-    id: 8,
-    avatar: "img/adam.jpg",
-    username: "Obama",
-    picture: "img/adam.jpg",
-    like : 100000,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are handsome!!!",
-    number_of_comment: 80,
-    time_of_comment: 3
-  }, {
-    id: 9,
-    avatar: "img/adam.jpg",
-    username: "Katy Perry",
-    picture: "img/adam.jpg",
-    like : 77,
-    caption: [],
-    commenter: "Ben",
-    comment: "You are handsome!!!",
-    number_of_comment: 99,
-    time_of_comment: 8
-}];
+  }];
 exports.AllPosts = function(){
     return posts;
 }
