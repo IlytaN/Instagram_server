@@ -3,7 +3,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var app = express();
 
-var posts = require('./Home/Posts.js');
+var posts = require('./Home_instagram/Posts.js');
 // You can store key-value pairs in express, here we store the port setting
 app.set('port', process.env.PORT || 3000);
 app.use(cors());
